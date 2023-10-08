@@ -1,0 +1,4 @@
+
+rootProject.name = "TapandroidForm"
+include ':simplesettings'
+include ':app'
