@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        app:title="Operation">
+
+        <EditTextPreference
+            app:key="publicKey"
+            app:defaultValue="pk_test_Vlk842B1EA7tDN5QbrfGjYzh"
+            app:title="Public Key"
+            app:useSimpleSummaryProvider="true"/>
+
+        <EditTextPreference
+            app:key="hashKey"
+            app:defaultValue="test"
+            app:title="HashString"
+            app:useSimpleSummaryProvider="true"/>
+
+        <Preference
+            app:key="dialog_preference"
+            android:title="Done"
+            app:summary="Tap to show Button" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

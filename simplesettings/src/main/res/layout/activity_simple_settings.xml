@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
 
-    <fragment
+    <FrameLayout
         android:id="@+id/settingsFragment"
         android:name="com.chillibits.simplesettings.ui.SimpleSettingsFragment"
         android:layout_width="match_parent"
